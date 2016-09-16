@@ -1,0 +1,676 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Compare to Redux-Form · React Redux Form</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        <!-- Meta -->
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff">
+
+        <!-- Styles -->
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../api/README.md" />
+    
+    
+    <link rel="prev" href="custom-controls.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="README.md">
+            
+                <span>
+            
+                    
+                    Guides
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="quickstart.html">
+            
+                <a href="quickstart.html">
+            
+                    
+                    Quick Start
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="models.html">
+            
+                <a href="models.html">
+            
+                    
+                    Models
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="validation.html">
+            
+                <a href="validation.html">
+            
+                    
+                    Validation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="tracking.html">
+            
+                <a href="tracking.html">
+            
+                    
+                    Tracking Collections
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="custom-controls.html">
+            
+                <a href="custom-controls.html">
+            
+                    
+                    Custom Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="compare-redux-form.html">
+            
+                <a href="compare-redux-form.html">
+            
+                    
+                    Compare to Redux-Form
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../api/README.md">
+            
+                <span>
+            
+                    
+                    API Reference
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../api/Control.html">
+            
+                <a href="../api/Control.html">
+            
+                    
+                    Control component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../api/Field.html">
+            
+                <a href="../api/Field.html">
+            
+                    
+                    Field component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../api/modelReducer.html">
+            
+                <a href="../api/modelReducer.html">
+            
+                    
+                    modelReducer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../api/formReducer.html">
+            
+                <a href="../api/formReducer.html">
+            
+                    
+                    formReducer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../api/combineForms.html">
+            
+                <a href="../api/combineForms.html">
+            
+                    
+                    combineForms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../api/actions.html">
+            
+                <a href="../api/actions.html">
+            
+                    
+                    action creators
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../recipes/README.md">
+            
+                <span>
+            
+                    
+                    Recipes and Examples
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../recipes/quickstart.html">
+            
+                <a href="../recipes/quickstart.html">
+            
+                    
+                    Quick Start
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <a href="../.." >Compare to Redux-Form</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="compare-to-redux-form">Compare to <a href="http://redux-form.com/" target="_blank">Redux-Form</a></h1><h3 id="simple-form-example">Simple Form Example</h3><p>Source: <a href="http://redux-form.com/6.0.2/examples/simple/" target="_blank">http://redux-form.com/6.0.2/examples/simple/</a></p><p><strong>Redux-Form:</strong></p><pre><code class="lang-js">import { Field } from &apos;redux-form&apos;;
+
+&lt;Field
+  name=&quot;firstName&quot;
+  component=&quot;input&quot;
+  type=&quot;text&quot;
+  placeholder=&quot;First Name&quot;
+/&gt;
+
+&lt;Field
+  name=&quot;email&quot;
+  component=&quot;input&quot;
+  type=&quot;email&quot;
+  placeholder=&quot;Email&quot;
+/&gt;
+
+&lt;Field name=&quot;notes&quot; component=&quot;textarea&quot; /&gt;
+
+// ...
+
+export default reduxForm({
+  form: &apos;simple&apos;  // a unique identifier for this form
+})(SimpleForm)</code></pre>
+<p><strong>React-Redux-Form:</strong></p><pre><code class="lang-js">import { Control } from &apos;react-redux-form&apos;;
+
+&lt;Control.text
+  model=&quot;simple.firstName&quot;
+  placeholder=&quot;First Name&quot;
+/&gt;
+
+&lt;Control
+  model=&quot;simple.email&quot;
+  type=&quot;email&quot;
+  placeholder=&quot;Email&quot;
+/&gt;
+
+&lt;Control.textarea model=&quot;simple.notes&quot; /&gt;</code></pre>
+<hr><p><strong>Redux-Form:</strong></p><pre><code class="lang-js">import { Field } from &apos;redux-form&apos;;
+
+&lt;div&gt;
+  &lt;label&gt;&lt;Field name=&quot;sex&quot; component=&quot;input&quot; type=&quot;radio&quot; value=&quot;male&quot;/&gt; Male&lt;/label&gt;
+  &lt;label&gt;&lt;Field name=&quot;sex&quot; component=&quot;input&quot; type=&quot;radio&quot; value=&quot;female&quot;/&gt; Female&lt;/label&gt;
+&lt;/div&gt;</code></pre>
+<p><strong>React-Redux-Form:</strong></p><pre><code class="lang-js">import { Field } from &apos;react-redux-form&apos;;
+
+&lt;Field model=&quot;simple.sex&quot;&gt;
+  &lt;label&gt;&lt;input type=&quot;radio&quot; value=&quot;male&quot;/&gt; Male&lt;/label&gt;
+  &lt;label&gt;&lt;input type=&quot;radio&quot; value=&quot;female&quot;/&gt; Female&lt;/label&gt;
+&lt;/Field&gt;</code></pre>
+<hr><p><strong>Redux-Form:</strong></p><pre><code class="lang-js">import { Field } from &apos;redux-form&apos;;
+
+&lt;Field name=&quot;favoriteColor&quot; component=&quot;select&quot;&gt;
+  &lt;option&gt;&lt;/option&gt;
+  &lt;option value=&quot;ff0000&quot;&gt;Red&lt;/option&gt;
+  &lt;option value=&quot;00ff00&quot;&gt;Green&lt;/option&gt;
+  &lt;option value=&quot;0000ff&quot;&gt;Blue&lt;/option&gt;
+&lt;/Field&gt;</code></pre>
+<p><strong>React-Redux-Form:</strong></p><pre><code class="lang-js">import { Control } from &apos;react-redux-form&apos;;
+
+&lt;Control.select model=&quot;simple.favoriteColor&quot;&gt;
+  &lt;option&gt;&lt;/option&gt;
+  &lt;option value=&quot;ff0000&quot;&gt;Red&lt;/option&gt;
+  &lt;option value=&quot;00ff00&quot;&gt;Green&lt;/option&gt;
+  &lt;option value=&quot;0000ff&quot;&gt;Blue&lt;/option&gt;
+&lt;/Control&gt;</code></pre>
+<hr><p><strong>Redux-Form:</strong></p><pre><code class="lang-js">import { Field } from &apos;redux-form&apos;;
+
+&lt;Field name=&quot;employed&quot; id=&quot;employed&quot; component=&quot;input&quot; type=&quot;checkbox&quot;/&gt;</code></pre>
+<p><strong>React-Redux-Form:</strong></p><pre><code class="lang-js">import { Control } from &apos;react-redux-form&apos;;
+
+&lt;Control.checkbox model=&quot;simple.employed&quot; id=&quot;employed&quot; /&gt;</code></pre>
+<h3 id="sync-validation">Sync Validation</h3><p>Source: <a href="http://redux-form.com/6.0.2/examples/syncValidation/" target="_blank">http://redux-form.com/6.0.2/examples/syncValidation/</a></p><p><strong>Redux-Form:</strong></p><pre><code class="lang-js">import { Field, reduxForm } from &apos;redux-form&apos;
+
+const validate = values =&gt; {
+  const errors = {}
+  if (!values.username) {
+    errors.username = &apos;Required&apos;
+  }
+
+  return errors
+}
+
+const renderField = ({ input, label, type, meta: { touched, error } }) =&gt; (
+  &lt;div&gt;
+    &lt;label&gt;{label}&lt;/label&gt;
+    &lt;input {...input} placeholder={label} type={type}/&gt;
+    {touched &amp;&amp; error &amp;&amp; &lt;span&gt;{error}&lt;/span&gt;}
+  &lt;/div&gt;
+)
+
+const SyncValidationForm = (props) =&gt; {
+  const { handleSubmit, pristine, reset, submitting } = props
+  return (
+    &lt;form onSubmit={handleSubmit}&gt;
+      &lt;Field name=&quot;username&quot; type=&quot;text&quot; component={renderField} label=&quot;Username&quot;/&gt;
+    &lt;/form&gt;
+  )
+}
+
+export default reduxForm({
+  form: &apos;syncValidation&apos;,  // a unique identifier for this form
+  validate                 // &lt;--- validation function given to redux-form
+})(SyncValidationForm)</code></pre>
+<p><strong>React-Redux-Form:</strong></p><pre><code class="lang-js">import { Form, Control, Errors } from &apos;react-redux-form&apos;;
+
+const required = (val) =&gt; !!(val &amp;&amp; val.length);
+
+const SyncValidationForm = () =&gt; (
+  &lt;Form model=&quot;syncValidation&quot; onSubmit={...}&gt;
+    &lt;div&gt;
+      &lt;label&gt;Username&lt;/label&gt;
+      &lt;Control.text
+        placeholder=&quot;Username&quot;
+        validators={{ required }}
+      /&gt;
+      &lt;Errors messages={{ required: &apos;Required&apos; }} /&gt;
+    &lt;/div&gt;
+  &lt;/Form&gt;
+);
+
+// no need to connect!
+export default SyncValidationForm;</code></pre>
+<h3 id="initialize-from-state">Initialize From State</h3><p>Source: <a href="http://redux-form.com/6.0.2/examples/initializeFromState/" target="_blank">http://redux-form.com/6.0.2/examples/initializeFromState/</a></p><p><strong>Redux-Form:</strong></p><pre><code class="lang-js">// Too lengthy to display. See source above.</code></pre>
+<p><strong>React-Redux-Form:</strong></p><pre><code class="lang-js">import { connect } from &apos;react-redux&apos;;
+import { actions } from &apos;react-redux-form&apos;;
+
+// external data to load
+const data = { /* ... */ };
+
+const InitializeFromStateForm = (props) =&gt; {
+  const { dispatch } = this.props;
+
+  return (
+    &lt;form&gt;
+      &lt;button type=&quot;button&quot; onClick={() =&gt; dispatch(actions.load(data))}&gt;
+        Load Account
+      &lt;/button&gt;
+      {/* ... */}
+    &lt;/form&gt;
+  );
+}
+
+export default connect(null)(InitializeFromStateForm);</code></pre>
+<h3 id="selecting-form-values">Selecting Form Values</h3><p>Source: <a href="http://redux-form.com/6.0.2/examples/selectingFormValues/" target="_blank">http://redux-form.com/6.0.2/examples/selectingFormValues/</a></p><p><strong>Redux-Form:</strong></p><pre><code class="lang-js">import { formValueSelector } from &apos;redux-form&apos;;
+import { connect } from &apos;react-redux&apos;;
+
+const UserForm = // ...
+
+// ...
+const selector = formValueSelector(&apos;user&apos;) // &lt;-- same as form name
+export default connect(
+  state =&gt; {
+    // can select values individually
+    const hasEmailValue = selector(state, &apos;hasEmail&apos;)
+    const favoriteColorValue = selector(state, &apos;favoriteColor&apos;)
+    // or together as a group
+    const { firstName, lastName } = selector(state, &apos;firstName&apos;, &apos;lastName&apos;)
+    return {
+      hasEmailValue,
+      favoriteColorValue,
+      fullName: `${firstName || &apos;&apos;} ${lastName || &apos;&apos;}`
+    }
+  }
+)(UserForm)</code></pre>
+<p><strong>React-Redux-Form:</strong></p><pre><code class="lang-js">import { connect } from &apos;react-redux&apos;;
+
+const UserForm = // ...
+
+export default connect(({ user }) =&gt; ({
+  hasEmail: user.hasEmail,
+  favoriteColorValue: user.favoriteColorValue,
+  fullName: `${user.firstName} ${user.lastName}`
+}))(UserForm);</code></pre>
+<h3 id="field-arrays">Field Arrays</h3><p>Source: <a href="http://redux-form.com/6.0.2/examples/fieldArrays/" target="_blank">http://redux-form.com/6.0.2/examples/fieldArrays/</a></p><p><strong>Redux-Form:</strong></p><pre><code class="lang-js">// Too lengthy to display. See source above.</code></pre>
+<p><strong>React-Redux-Form:</strong></p><pre><code class="lang-js">import { Control } from &apos;react-redux-form&apos;;
+
+const initialMember = { firstName: &apos;&apos;, lastName: &apos;&apos; };
+const initialHobby = &apos;&apos;;
+
+const ClubForm = ({ club, dispatch }) =&gt; (
+  &lt;Form model=&quot;club&quot;&gt;
+    &lt;Field model=&quot;club.name&quot;&gt;
+      &lt;label&gt;Club Name&lt;/label&gt;
+      &lt;input type=&quot;text&quot; required /&gt;
+    &lt;/Field&gt;
+
+    &lt;button
+      type=&quot;button&quot;
+      onClick={() =&gt; dispatch(actions.push(&apos;club.members&apos;, initialMember))}
+    /&gt;
+      Add Member
+    &lt;/button&gt;
+
+    {club.members.map((member, i) =&gt;
+      &lt;div key={i}&gt;
+        &lt;div&gt;Member #{i+1}&lt;/div&gt;
+        &lt;Field model={`club.members[${i}].firstName`}&gt;
+          &lt;label&gt;First Name&lt;/label&gt;
+          &lt;input type=&quot;text&quot; required /&gt;
+        &lt;/Field&gt;
+        &lt;Field model={`club.members[${i}].lastName`}&gt;
+          &lt;label&gt;Last Name&lt;/label&gt;
+          &lt;input type=&quot;text&quot; required /&gt;
+        &lt;/Field&gt;
+        &lt;button
+          type=&quot;button&quot;
+          onClick={() =&gt; dispatch(actions.push(`club.members[${i}].hobbies`, initialHobby))}
+        /&gt;
+          Add Hobby
+        &lt;/button&gt;
+        {member.hobbies.map((hobby, j) =&gt;
+          &lt;Field model={`club.members[${i}].hobbies[${j}]`} key={j}&gt;
+            &lt;label&gt;Hobby #{j+1}&lt;/label&gt;
+            &lt;input type=&quot;text&quot; required /&gt;
+          &lt;/Field&gt;
+        )}
+      &lt;/div&gt;
+    )}
+  &lt;/Form&gt;
+);
+
+export default connect(({club}) =&gt; ({club}))(ClubForm);</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="custom-controls.html" class="navigation navigation-prev " aria-label="Previous page: Custom Controls">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../api/README.md" class="navigation navigation-next " aria-label="Next page: API Reference">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Compare to Redux-Form","level":"1.2.6","depth":2,"next":{"title":"API Reference","level":"1.3","depth":1,"path":"docs/api/README.md","ref":"docs/api/README.md","articles":[{"title":"Control component","level":"1.3.1","depth":2,"path":"docs/api/Control.md","ref":"docs/api/Control.md","articles":[]},{"title":"Field component","level":"1.3.2","depth":2,"path":"docs/api/Field.md","ref":"docs/api/Field.md","articles":[]},{"title":"modelReducer","level":"1.3.3","depth":2,"path":"docs/api/modelReducer.md","ref":"docs/api/modelReducer.md","articles":[]},{"title":"formReducer","level":"1.3.4","depth":2,"path":"docs/api/formReducer.md","ref":"docs/api/formReducer.md","articles":[]},{"title":"combineForms","level":"1.3.5","depth":2,"path":"docs/api/combineForms.md","ref":"docs/api/combineForms.md","articles":[]},{"title":"action creators","level":"1.3.6","depth":2,"path":"docs/api/actions.md","ref":"docs/api/actions.md","articles":[]}]},"previous":{"title":"Custom Controls","level":"1.2.5","depth":2,"path":"docs/guides/custom-controls.md","ref":"docs/guides/custom-controls.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","-sharing","-fontsettings","github","livereload","theme-rrf"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/davidkpiano/react-redux-form"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-rrf":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"React Redux Form","gitbook":"3.x.x"},"file":{"path":"docs/guides/compare-redux-form.md","mtime":"2016-09-14T05:16:49.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-16T23:18:44.859Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+
+    </body>
+</html>
+
